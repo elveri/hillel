@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3f9cc9-23bd-4ce2-8a1d-0bc18c73a9fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Mamp 7.1.6" />
   <component name="ProjectId" id="1W6zW8M0LiE7Y2jeV42oz3cWqkU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,14 +30,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="PHP Script.lesson1.php">
     <configuration name="hillel" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+    <configuration name="lesson1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.3" />
@@ -45,7 +47,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.lesson1.php" />
         <item itemvalue="PHPUnit.hillel" />
       </list>
     </recent_temporary>
@@ -72,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578484861001</updated>
-      <workItem from="1578484864677" duration="1000000" />
+      <workItem from="1578484864677" duration="2019000" />
+      <workItem from="1578746071966" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -80,14 +83,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="185" key="#CLI_Interpreters" timestamp="1578485995556">
+    <state x="548" y="185" key="#CLI_Interpreters" timestamp="1578486430723">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="548" y="185" key="#CLI_Interpreters/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485995556" />
-    <state x="625" y="108" key="#PHP" timestamp="1578485997397">
+    <state x="548" y="185" key="#CLI_Interpreters/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578486430723" />
+    <state x="625" y="108" key="#PHP" timestamp="1578486431661">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="625" y="108" key="#PHP/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485997397" />
+    <state x="625" y="108" key="#PHP/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578486431661" />
     <state x="608" y="160" key="#hillel" timestamp="1578484982855">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
@@ -96,33 +99,33 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="655" y="211" key="#index.php/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485036340" />
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1578485101524">
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1578490611720">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485101524" />
-    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1578485101523">
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1578490611720">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485101523" />
-    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1578485101522">
+    <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1578490611719">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485101522" />
-    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1578485101523">
+    <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611719" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1578490611720">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485101523" />
-    <state x="778" y="453" key="NewPhpFileDialog" timestamp="1578484894904">
+    <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
+    <state x="778" y="453" key="NewPhpFileDialog" timestamp="1578746096146">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="778" y="453" key="NewPhpFileDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578484894904" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1578485461234">
+    <state x="778" y="453" key="NewPhpFileDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578746096146" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578486369692">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578485461234" />
-    <state x="637" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578484874132">
+    <state x="461" y="162" key="SettingsEditor/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578486369692" />
+    <state x="637" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578746075622">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="637" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578484874132" />
+    <state x="637" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578746075622" />
   </component>
 </project>
