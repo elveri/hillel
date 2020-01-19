@@ -64,7 +64,6 @@
     echo 'Total worker salary: '.$TotalSalary = $WorkerFirstSalary + $WorkerSecondSalary.'<br>';
 
     // function for output worker's name and age
-
     function GetNameAge($worker) {
         echo "The name of the worker is {$worker->getName()}, and his age is {$worker->getAge()} years old.<br>";
     }
