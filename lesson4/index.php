@@ -14,7 +14,7 @@
                 $this->name = $name;
             }
 
-            public function getName() {
+            public function getName(): ?string {
                 return $this->name;
             }
 
@@ -23,7 +23,7 @@
                 else die('Error: Age value is incorect, please check input data!');
             }
 
-            public function getAge() {
+            public function getAge(): ?int {
                 return $this->age;
             }
 
@@ -53,12 +53,10 @@
     $WorkerSecond->setSalary(2000);
 
     // get values from WorkerFirst methods
-    $WorkerFirstName = $WorkerFirst->getName();
     $WorkerFirstAge = $WorkerFirst->getAge();
     $WorkerFirstSalary = $WorkerFirst->getSalary();
 
     // get values from WorkerSecond methods
-    $WorkerSecondName = $WorkerSecond->getName();
     $WorkerSecondAge = $WorkerSecond->getAge();
     $WorkerSecondSalary = $WorkerSecond->getSalary();
 
@@ -66,11 +64,12 @@
     echo 'Total worker salary: '.$TotalSalary = $WorkerFirstSalary + $WorkerSecondSalary.'<br>';
 
     // function for output worker's name and age
-    function GetNameAge($name, $age) {
-        echo 'The name of the worker is '.$name.', and his age is '.$age.' years old.<br>';
+
+    function GetNameAge($worker) {
+        echo "The name of the worker is {$worker->getName()}, and his age is {$worker->getAge()} years old.<br>";
     }
 
-    GetNameAge($WorkerFirstName, $WorkerFirstAge);
-    GetNameAge($WorkerSecondName, $WorkerSecondAge);
+    GetNameAge($WorkerFirst);
+    GetNameAge($WorkerSecond);
 
 ?>
