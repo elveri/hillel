@@ -65,7 +65,9 @@
 
     // function for output worker's name and age
     function GetNameAge($worker) {
-        echo "The name of the worker is {$worker->getName()}, and his age is {$worker->getAge()} years old.<br>";
+        $workerName = $worker->getName();
+        $workerAge = $worker->getAge();
+        echo "The name of the worker is $workerName, and his age is $workerAge years old.<br>";
     }
 
     GetNameAge($WorkerFirst);
