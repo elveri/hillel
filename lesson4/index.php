@@ -60,8 +60,8 @@
     $WorkerSecondAge = $WorkerSecond->getAge();
     $WorkerSecondSalary = $WorkerSecond->getSalary();
 
-    echo 'Total worker age: '.$TotalAge = $WorkerFirstAge + $WorkerSecondAge.'<br>';
-    echo 'Total worker salary: '.$TotalSalary = $WorkerFirstSalary + $WorkerSecondSalary.'<br>';
+    echo 'Total workers age: '.$TotalAge = $WorkerFirstAge + $WorkerSecondAge.'<br>';
+    echo 'Total workers salary: '.$TotalSalary = $WorkerFirstSalary + $WorkerSecondSalary.'<br>';
 
     // function for output worker's name and age
     function GetNameAge($worker) {
