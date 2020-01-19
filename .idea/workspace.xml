@@ -2,7 +2,177 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3f9cc9-23bd-4ce2-8a1d-0bc18c73a9fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson3/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app/config/fpm-pool.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app/config/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app/config/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app/config/supervisord.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/nginx/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/php/www.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/docker/socket/php-fpm.sock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/app_test/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/auto.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/binlog.000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/binlog.000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/general_log_201.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/mysql/slow_log_202.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/accounts_138.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/cond_instances_77.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/data_lock_waits_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/data_locks_153.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_errors_su_134.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_errors_su_135.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_errors_su_136.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_cu_104.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_hi_105.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_hi_106.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_su_109.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_su_110.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_stages_su_111.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_121.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_122.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_statement_123.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_129.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_130.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_transacti_131.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_cur_78.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_his_79.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_his_80.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_84.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_85.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/events_waits_sum_86.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/file_instances_87.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/file_summary_by__88.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/file_summary_by__89.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/global_status_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/global_variables_175.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/host_cache_90.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/hosts_139.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/keyring_keys_145.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/log_status_165.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/memory_summary_b_147.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/memory_summary_b_148.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/memory_summary_b_149.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/memory_summary_b_150.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/memory_summary_g_146.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/metadata_locks_152.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/mutex_instances_91.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/objects_summary__92.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/performance_time_93.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/persisted_variab_178.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/prepared_stateme_166.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_158.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_161.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_163.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_appl_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_conn_155.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_conn_157.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_grou_156.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/replication_grou_162.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/rwlock_instances_94.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/session_account__144.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/session_connect__143.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/session_status_173.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/session_variable_176.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/setup_actors_95.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/setup_consumers_96.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/setup_instrument_97.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/setup_objects_98.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/setup_threads_99.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/socket_instances_140.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/socket_summary_b_141.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/socket_summary_b_142.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/status_by_accoun_168.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/status_by_host_169.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/status_by_thread_170.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/status_by_user_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/table_handles_151.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/table_io_waits_s_100.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/table_io_waits_s_101.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/table_lock_waits_102.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/threads_103.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/user_defined_fun_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/user_variables_b_167.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/users_137.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/variables_by_thr_174.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/performance_schema/variables_info_177.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/undo_001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/data/undo_002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/mysql/mysqld.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/php-fpm/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/php-fpm/php-ini-overrides.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/servises_config/php-fpm/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/app/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/config/fpm-pool.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/config/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/config/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/config/supervisord.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/docker-compose.test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/run_tests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/docker-php-nginx-master/src/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/trash/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/app/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/phpdocker/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/phpdocker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/phpdocker/nginx/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/phpdocker/php-fpm/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/app/phpdocker/php-fpm/php-ini-overrides.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/src/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +209,16 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Mamp 7.1.6" />
   <component name="ProjectId" id="1W6zW8M0LiE7Y2jeV42oz3cWqkU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -96,11 +270,15 @@
       <workItem from="1578746071966" duration="2343000" />
       <workItem from="1578934877697" duration="294000" />
       <workItem from="1578941397781" duration="463000" />
+      <workItem from="1579281978136" duration="7502000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="185" key="#CLI_Interpreters" timestamp="1578486430723">
@@ -111,10 +289,14 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="625" y="108" key="#PHP/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578486431661" />
-    <state x="320" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578939705625">
+    <state x="320" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579282667313">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="320" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1578939705625" />
+    <state x="320" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1579282667313" />
+    <state x="502" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1579285402225">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="502" y="162" key="#com.intellij.ide.util.MemberChooser/0.23.1440.833@0.23.1440.833" timestamp="1579285402225" />
     <state x="608" y="160" key="#hillel" timestamp="1578484982855">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
@@ -143,9 +325,10 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
-    <state x="778" y="453" key="NewPhpFileDialog" timestamp="1578746096146">
-      <screen x="0" y="23" width="1920" height="1001" />
+    <state x="584" y="381" key="NewPhpFileDialog" timestamp="1579282011826">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
+    <state x="584" y="381" key="NewPhpFileDialog/0.23.1440.833@0.23.1440.833" timestamp="1579282011826" />
     <state x="778" y="453" key="NewPhpFileDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578746096146" />
     <state x="346" y="134" key="SettingsEditor" timestamp="1578941640815">
       <screen x="0" y="23" width="1440" height="833" />
