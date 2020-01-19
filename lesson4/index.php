@@ -31,7 +31,7 @@
                 $this->salary = $salary;
             }
 
-            public function getSalary() {
+            public function getSalary(): ?int {
                 return $this->salary;
             }
     }
