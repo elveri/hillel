@@ -19,7 +19,7 @@
             }
 
             public function setAge(int $age) {
-                if(self::checkAge($age)==true) $this->age = $age;
+                if($this->checkAge($age)==true) $this->age = $age;
                 else die('Error: Age value is incorect, please check input data!');
             }
 
