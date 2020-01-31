@@ -131,9 +131,9 @@ echo 'Manticora team health result:<br>';
 foreach ($manticoraHealthResult as $l => $m) {
     echo $l.' = '.$m.'<br>';
 }
+$fight->setTeamTwoDamage();
 $dragonHealthResult = $fight->getResultHealthTeamTwo();
 echo '<hr> Dragon team health result:<br>';
 foreach ($dragonHealthResult as $o => $p) {
     echo $o.' = '.$p.'<br>';
 }
-//$fight->setTeamTwoDamage();
