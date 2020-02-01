@@ -53,6 +53,7 @@ for($i=0; $i<=$soldierCount; $i++)
 
 // create Manticora officer
 $officerDamage = rand(10, 100);
+$soldierCount = rand(6, 10);
 
 $equipmentRand = rand(0, 2);
 $officerEquipmentList = array_slice($equipmentList, $equipmentRand);
