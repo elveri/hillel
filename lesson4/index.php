@@ -1,4 +1,5 @@
 <?php
+/*
     class Worker
     {
             private $name;
@@ -72,5 +73,5 @@
 
     GetNameAge($WorkerFirst);
     GetNameAge($WorkerSecond);
-
+*/
 ?>

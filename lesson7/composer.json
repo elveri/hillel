@@ -1,0 +1,12 @@
+{
+    "name": "borgir/lesson7",
+    "authors": [
+        {
+            "name": "Dmitry Shcherbyna",
+            "email": "scherbina.dm@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/cache": "^1.0"
+    }
+}

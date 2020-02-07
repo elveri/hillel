@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3f9cc9-23bd-4ce2-8a1d-0bc18c73a9fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/class/EmployeeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/class/Manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/class/ManagerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/class/Output.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/class/Worker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheItemInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheItemPoolInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hillel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hillel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +41,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/lesson7/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -37,7 +69,12 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Mamp 7.1.6" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Mamp 7.1.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/lesson7/vendor/composer" />
+      <path value="$PROJECT_DIR$/lesson7/vendor/psr/cache" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1W6zW8M0LiE7Y2jeV42oz3cWqkU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,6 +91,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson6/class" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php (1)">
     <configuration name="hillel" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -111,7 +153,10 @@
       <workItem from="1578941397781" duration="463000" />
       <workItem from="1579281978136" duration="9966000" />
       <workItem from="1579872308937" duration="607000" />
-      <workItem from="1580144903959" duration="41993000" />
+      <workItem from="1580144903959" duration="42160000" />
+      <workItem from="1580743116489" duration="600000" />
+      <workItem from="1580751385078" duration="1246000" />
+      <workItem from="1580818923906" duration="14947000" />
     </task>
     <servers />
   </component>
@@ -155,53 +200,68 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="303" y="41" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1578941657163" />
-    <state width="1878" height="215" key="GridCell.Tab.0.bottom" timestamp="1580437614636">
-      <screen x="0" y="23" width="1920" height="1002" />
+    <state width="1878" height="215" key="GridCell.Tab.0.bottom" timestamp="1580743075817">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1580147649171" />
     <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
     <state width="1878" height="215" key="GridCell.Tab.0.bottom/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580437614636" />
-    <state width="1878" height="215" key="GridCell.Tab.0.center" timestamp="1580437614634">
-      <screen x="0" y="23" width="1920" height="1002" />
+    <state width="1878" height="215" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1580743075817" />
+    <state width="1878" height="215" key="GridCell.Tab.0.center" timestamp="1580743075815">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1580147649170" />
     <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
     <state width="1878" height="215" key="GridCell.Tab.0.center/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580437614634" />
-    <state width="1878" height="215" key="GridCell.Tab.0.left" timestamp="1580437614633">
-      <screen x="0" y="23" width="1920" height="1002" />
+    <state width="1878" height="215" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1580743075815" />
+    <state width="1878" height="215" key="GridCell.Tab.0.left" timestamp="1580743075813">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1580147649170" />
     <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611719" />
     <state width="1878" height="215" key="GridCell.Tab.0.left/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580437614633" />
-    <state width="1878" height="215" key="GridCell.Tab.0.right" timestamp="1580437614635">
-      <screen x="0" y="23" width="1920" height="1002" />
+    <state width="1878" height="215" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1580743075813" />
+    <state width="1878" height="215" key="GridCell.Tab.0.right" timestamp="1580743075816">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1580147649171" />
     <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
     <state width="1878" height="215" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580437614635" />
-    <state x="692" y="347" key="NewPhpClassDialog" timestamp="1580483570796">
+    <state width="1878" height="215" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1580743075816" />
+    <state x="692" y="347" key="NewPhpClassDialog" timestamp="1581086105876">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="692" y="347" key="NewPhpClassDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580483570796" />
-    <state x="584" y="381" key="NewPhpFileDialog" timestamp="1579282011826">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="519" y="293" key="NewPhpClassDialog/0.23.1440.834@0.23.1440.834" timestamp="1580751871793" />
+    <state x="692" y="347" key="NewPhpClassDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1581086105876" />
+    <state x="779" y="453" key="NewPhpFileDialog" timestamp="1581076016477">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state x="584" y="381" key="NewPhpFileDialog/0.23.1440.833@0.23.1440.833" timestamp="1579282011826" />
+    <state x="584" y="381" key="NewPhpFileDialog/0.23.1440.834@0.23.1440.834" timestamp="1580751477384" />
     <state x="778" y="453" key="NewPhpFileDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578746096146" />
-    <state x="346" y="134" key="SettingsEditor" timestamp="1578941640815">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="779" y="453" key="NewPhpFileDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1581076016477" />
+    <state x="346" y="134" key="SettingsEditor" timestamp="1580751607494">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="346" y="134" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1578941640814" />
+    <state x="346" y="134" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1580751607494" />
     <state x="461" y="162" key="SettingsEditor/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578486369692" />
-    <state x="478" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1580144904883">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="637" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1581010926152">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="478" y="299" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1578934878750" />
     <state x="478" y="299" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1580144904883" />
+    <state x="478" y="299" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1580751385918" />
     <state x="637" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1579872309604" />
+    <state x="637" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580743116824" />
+    <state x="637" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1581010926152" />
     <state x="482" y="67" key="refactoring.ChangeSignatureDialog" timestamp="1580489754183">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="482" y="67" key="refactoring.ChangeSignatureDialog/0.23.1440.834@0.23.1440.834" timestamp="1580489754183" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1581089153272">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1581089153272" />
   </component>
 </project>
