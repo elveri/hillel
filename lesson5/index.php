@@ -1,10 +1,14 @@
 <?php
+/*
 include_once("class/weapon.php");
 include_once("class/equipment.php");
 include_once("class/soldier.php");
 include_once("class/officer.php");
 include_once("class/team.php");
 include_once("class/fight.php");
+*/
+
+require_once "Autoload.php";
 
 echo "<h1>Ender's Game</h1>";
 

@@ -1,6 +1,5 @@
 <?php
 
-
 class Worker implements EmployeeInterface
 {
     public $workerName;

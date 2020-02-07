@@ -1,12 +1,16 @@
 <?php
-
+/*
 include_once "class/EmployeeInterface.php";
 include_once "class/ManagerInterface.php";
 include_once "class/Worker.php";
 include_once "class/Manager.php";
 include_once "class/Output.php";
+*/
+require_once "Autoload.php";
 
-$outputFormat = trim(strtolower($_GET['type']));
+if($_GET['type']) $outputFormat = trim(strtolower($_GET['type']));
+else $outputFormat='html';
+
 
 $workersList1 = array(
     "worker1" => new Worker('Ivan', 50, 'Worker', '2015-02-12'),
@@ -50,4 +54,7 @@ switch ($outputFormat) {
         header('Content-type: application/json');
         echo $output->getJSON();
         break;
+    default:
+        header('Content-type: text/html');
+        echo $output->getHTML();
 }

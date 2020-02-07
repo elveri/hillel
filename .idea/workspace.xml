@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3f9cc9-23bd-4ce2-8a1d-0bc18c73a9fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson6/class/EmployeeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/class/Manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/class/ManagerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/class/Output.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/class/Worker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheItemInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/CacheItemPoolInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/vendor/psr/cache/src/InvalidArgumentException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hillel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hillel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/Autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/Autoload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/class/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/class/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson6" />
       <recent name="$PROJECT_DIR$/lesson6/class" />
     </key>
   </component>
@@ -156,7 +131,7 @@
       <workItem from="1580144903959" duration="42160000" />
       <workItem from="1580743116489" duration="600000" />
       <workItem from="1580751385078" duration="1246000" />
-      <workItem from="1580818923906" duration="14947000" />
+      <workItem from="1580818923906" duration="18587000" />
     </task>
     <servers />
   </component>
@@ -228,10 +203,10 @@
     <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1440.877@0.23.1920.1001" timestamp="1578490611720" />
     <state width="1878" height="215" key="GridCell.Tab.0.right/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1580437614635" />
     <state width="1878" height="215" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1440.877@0.23.1920.1003" timestamp="1580743075816" />
-    <state x="692" y="347" key="NewPhpClassDialog" timestamp="1581086105876">
-      <screen x="0" y="23" width="1920" height="1002" />
+    <state x="519" y="293" key="NewPhpClassDialog" timestamp="1581099554157">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="519" y="293" key="NewPhpClassDialog/0.23.1440.834@0.23.1440.834" timestamp="1580751871793" />
+    <state x="519" y="293" key="NewPhpClassDialog/0.23.1440.834@0.23.1440.834" timestamp="1581099554157" />
     <state x="692" y="347" key="NewPhpClassDialog/0.23.1920.1002/1920.23.1440.877@0.23.1920.1002" timestamp="1581086105876" />
     <state x="779" y="453" key="NewPhpFileDialog" timestamp="1581076016477">
       <screen x="0" y="23" width="1920" height="1002" />
